@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+table tr td.data-left>a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+table table-active tr td.data-left>a:active {
+    text-decoration: none;
+    color: rgb(29, 83, 145);
+    font-weight: bold;
+}
+
+table tr td.data-left>a:hover {
+    text-decoration: underline;
+    color: #000;
+
+}
+
+
+.table tr td.data-left {
+    text-align: left;
+}
+
+table tr:hover {
+    cursor: pointer;
+}
+
+tr:nth-child(1),
+tr:nth-child(5),
+td:nth-child(1) {
+    text-align: center;
+}
+
+
+
+.fa-solid {
+    color: rgb(29, 83, 145);
+    font-size: 1.2em;
+}
+
+.fa-regular {
+    color: rgb(29, 83, 145);
+    font-size: 1em;
+}
